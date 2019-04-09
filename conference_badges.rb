@@ -3,8 +3,6 @@ puts "Hello, my name is #{name}"
 end
 def batch_badge_creator(array)
   array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-end
-  array.each do |i| 
-    puts "Hello my name is" i
+  array.each do |name| 
+    puts "Hello my name is #{name}"
   end
-end
