@@ -9,4 +9,4 @@ end
 return array
 end
 def assign_rooms
-  
+  attendees = []
