@@ -3,8 +3,8 @@ return "Hello, my name is #{name}."
 end
 def batch_badge_creator(attendees)
   attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-attendees.each do |name| 
-  puts "Hello, my name is #{name}."
+attendees.each do |attendee| 
+  puts "Hello, my name is #{attendee}."
 end
 def assign_rooms(names, rooms)
   names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
