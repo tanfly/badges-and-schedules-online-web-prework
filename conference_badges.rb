@@ -6,4 +6,3 @@ def batch_badge_creator(array)
 maybe = array.each {|name| puts "Hello, my name is #{name}"}
 maybe
 end
-end
