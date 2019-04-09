@@ -11,3 +11,4 @@ end
 def assign_rooms(array)
   attendees = []
   counter = 1 
+  array.each do |
